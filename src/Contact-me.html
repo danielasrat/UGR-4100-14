@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Contact-Me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> 
-    <link rel="stylesheet" href="./styles.css">    
+    <link rel="stylesheet" href="./css/styles.css"> 
 </head>
 <body>
     <header>
@@ -27,29 +26,38 @@
             </ul>
         </nav>
     </header>
-    <main class="main">
-        <div class="block--Home">    
-            <img class="block--Home_img" src="./images/Profilephoto.JPG " alt="">
-            <buttom class="block--Home_button">Frontend Developer</buttom>
-            <h1 class="block--Home_h1">Hi I'm</h1>
-            <h2 class="block--Home_h2">Daniel asrat</h2><br>
-            <p id="block--Home_p">I'm a UI/UX Designer and Frontedend Developer based in Addis Ababa, Ethiopia.</p>
-            <button class="button block--Home_button block--Home_button2">Hire me</button>
-            <button class="button block--Home_button3">Download Cv</button>
+    <main class="">
+        <h2 id="block--contact_elem--h2">Contact</h2>
+        <img class="block--contact_elem--img"  src="./images/Contact-me-img.jpg" alt="">
+        <h3 id="block--contact_elem--h3">Get In Touch</h3>
+        <div class="block--contact--follow">
+        <p>Follow me elsewhere</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Reprehenderit aperiam inventore consequuntur provident natus fugit, id eum, <br> saepe fuga dolore nemo porro ipsam aliquid omnis laboriosam ratione quas totam excepturi.</p>
         </div>
-        <h3 id="Home_h3">Social Media:</h3>
-        <div class="block--Home--icons">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-youtube"></a>
-                <a href="#" class="fa fa-instagram"></a>
+        <div class="block--contact--message">
+            <div class="div">
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name"><br>
+            </div>
+            <div class="div">
+                <label for="email">Email Address</label><br>
+                <input type="text" id="email"><br>
+            </div>
         </div>
-        <div class="block--Home--txt">
-            <p>What Can I do?</p><br>
-                <p>I can help you to solve your problem, <br> the product i created is certaintly done <br>through the research process, which <br>
-                can later produce a product that <br>matches what you want.</p>
+            <div class="block--submitmessage">
+                <label for="message">Message</label><br>
+                <input type="text" id="message"> <br>
+                <div class="center">
+                    <button class="button" id="button2">Submit Message</button>
+                  </div> 
+            </div>
+        <div class="block--contact--social">
+            <h6>Social Media:</h6>
+            <a href="#" class="fa fa-facebook"></a><br> 
+            <a href="#" class="fa fa-instagram"></a><br>
+            <a href="#" class="fa fa-youtube"></a><br>
+            <a href="#" class="fa fa-linkedin"></a>
         </div>
-        <br>
     </main>
     <footer>
         <div class="block--footer">
